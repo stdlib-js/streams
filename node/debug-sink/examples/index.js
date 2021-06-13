@@ -19,7 +19,7 @@
 'use strict';
 
 var parseJSON = require( '@stdlib/utils/parse-json' );
-var transformFactory = require( '@stdlib/streams/node/transform' ).factory;
+var transformFactory = require( './../../../node/transform' ).factory;
 var debugSinkStream = require( './../lib' ).objectMode;
 
 function parse( chunk, enc, clbk ) {

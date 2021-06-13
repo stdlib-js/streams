@@ -18,7 +18,7 @@
 
 'use strict';
 
-var inspectStream = require( '@stdlib/streams/node/inspect-sink' );
+var inspectStream = require( './../../../node/inspect-sink' );
 var emptyStream = require( './../lib' );
 
 function log( v ) {

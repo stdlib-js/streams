@@ -18,7 +18,7 @@
 
 'use strict';
 
-var inspectStream = require( '@stdlib/streams/node/inspect-sink' );
+var inspectStream = require( './../../../node/inspect-sink' );
 var randu = require( '@stdlib/random/iter/randu' );
 var iteratorStream = require( './../lib' );
 

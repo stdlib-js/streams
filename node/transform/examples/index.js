@@ -18,7 +18,7 @@
 
 'use strict';
 
-var stdout = require( '@stdlib/streams/node/stdout' );
+var stdout = require( './../../../node/stdout' );
 var factory = require( './../lib' ).factory;
 
 function parse( chunk, enc, clbk ) {

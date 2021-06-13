@@ -22,7 +22,7 @@
 
 var tape = require( 'tape' );
 var Readable = require( 'readable-stream' ).Readable;
-var inspectStream = require( '@stdlib/streams/node/inspect-sink' );
+var inspectStream = require( './../../../node/inspect-sink' );
 var emptyStream = require( './../lib/main.js' );
 
 

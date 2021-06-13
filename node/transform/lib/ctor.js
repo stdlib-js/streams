@@ -110,7 +110,7 @@ function ctor( options ) {
 	* @returns {TransformStream} transform stream
 	*
 	* @example
-	* var stdout = require( '@stdlib/streams/node/stdout' );
+	* var stdout = require( './../../../node/stdout' );
 	*
 	* var stream = new TransformStream();
 	*

@@ -21,7 +21,7 @@
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
 
-import node = require( '@stdlib/streams/node' );
+import node = require( './../../node' );
 
 /**
 * Interface describing the `streams` namespace.

@@ -19,7 +19,7 @@
 'use strict';
 
 var proc = require( 'process' );
-var stdout = require( '@stdlib/streams/node/stdout' );
+var stdout = require( './../../../node/stdout' );
 var stdin = require( './../lib' );
 
 // Set the encoding:

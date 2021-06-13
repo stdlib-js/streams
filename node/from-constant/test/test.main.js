@@ -26,7 +26,7 @@ var isBuffer = require( '@stdlib/assert/is-buffer' );
 var gcopy = require( '@stdlib/blas/base/gcopy' );
 var string2buffer = require( '@stdlib/buffer/from-string' );
 var Uint8Array = require( '@stdlib/array/uint8' );
-var inspectStream = require( '@stdlib/streams/node/inspect-sink' );
+var inspectStream = require( './../../../node/inspect-sink' );
 var constantStream = require( './../lib/main.js' );
 
 

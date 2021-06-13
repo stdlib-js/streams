@@ -21,7 +21,7 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var inspectStream = require( '@stdlib/streams/node/inspect-sink' );
+var inspectStream = require( './../../../node/inspect-sink' );
 var EmptyStream = require( './../lib/main.js' );
 var objectMode = require( './../lib/object_mode.js' );
 

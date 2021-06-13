@@ -22,7 +22,7 @@
 
 var tape = require( 'tape' );
 var Transform = require( 'readable-stream' ).Transform;
-var inspectStream = require( '@stdlib/streams/node/inspect-sink' );
+var inspectStream = require( './../../../node/inspect-sink' );
 var string2buffer = require( '@stdlib/buffer/from-string' );
 var Buffer = require( '@stdlib/buffer/ctor' );
 var JoinStream = require( './../lib/main.js' );

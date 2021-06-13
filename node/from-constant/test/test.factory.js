@@ -21,7 +21,7 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var inspectStream = require( '@stdlib/streams/node/inspect-sink' );
+var inspectStream = require( './../../../node/inspect-sink' );
 var ConstantStream = require( './../lib/main.js' );
 var factory = require( './../lib/factory.js' );
 

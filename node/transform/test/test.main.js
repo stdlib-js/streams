@@ -23,7 +23,7 @@
 var tape = require( 'tape' );
 var Transform = require( 'readable-stream' ).Transform;
 var noop = require( '@stdlib/utils/noop' );
-var inspectStream = require( '@stdlib/streams/node/inspect-sink' );
+var inspectStream = require( './../../../node/inspect-sink' );
 var TransformStream = require( './../lib/main.js' );
 
 

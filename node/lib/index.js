@@ -43,7 +43,7 @@ var streams = {};
 * @type {Function}
 * @see {@link module:@stdlib/streams/node/debug}
 */
-setReadOnly( streams, 'debugStream', require( '@stdlib/streams/node/debug' ) );
+setReadOnly( streams, 'debugStream', require( './../../node/debug' ) );
 
 /**
 * @name debugSinkStream
@@ -52,7 +52,7 @@ setReadOnly( streams, 'debugStream', require( '@stdlib/streams/node/debug' ) );
 * @type {Function}
 * @see {@link module:@stdlib/streams/node/debug-sink}
 */
-setReadOnly( streams, 'debugSinkStream', require( '@stdlib/streams/node/debug-sink' ) );
+setReadOnly( streams, 'debugSinkStream', require( './../../node/debug-sink' ) );
 
 /**
 * @name emptyStream
@@ -61,7 +61,7 @@ setReadOnly( streams, 'debugSinkStream', require( '@stdlib/streams/node/debug-si
 * @type {Function}
 * @see {@link module:@stdlib/streams/node/empty}
 */
-setReadOnly( streams, 'emptyStream', require( '@stdlib/streams/node/empty' ) );
+setReadOnly( streams, 'emptyStream', require( './../../node/empty' ) );
 
 /**
 * @name arrayStream
@@ -70,7 +70,7 @@ setReadOnly( streams, 'emptyStream', require( '@stdlib/streams/node/empty' ) );
 * @type {Function}
 * @see {@link module:@stdlib/streams/node/from-array}
 */
-setReadOnly( streams, 'arrayStream', require( '@stdlib/streams/node/from-array' ) );
+setReadOnly( streams, 'arrayStream', require( './../../node/from-array' ) );
 
 /**
 * @name circularArrayStream
@@ -79,7 +79,7 @@ setReadOnly( streams, 'arrayStream', require( '@stdlib/streams/node/from-array' 
 * @type {Function}
 * @see {@link module:@stdlib/streams/node/from-circular-array}
 */
-setReadOnly( streams, 'circularArrayStream', require( '@stdlib/streams/node/from-circular-array' ) );
+setReadOnly( streams, 'circularArrayStream', require( './../../node/from-circular-array' ) );
 
 /**
 * @name constantStream
@@ -88,7 +88,7 @@ setReadOnly( streams, 'circularArrayStream', require( '@stdlib/streams/node/from
 * @type {Function}
 * @see {@link module:@stdlib/streams/node/from-constant}
 */
-setReadOnly( streams, 'constantStream', require( '@stdlib/streams/node/from-constant' ) );
+setReadOnly( streams, 'constantStream', require( './../../node/from-constant' ) );
 
 /**
 * @name iteratorStream
@@ -97,7 +97,7 @@ setReadOnly( streams, 'constantStream', require( '@stdlib/streams/node/from-cons
 * @type {Function}
 * @see {@link module:@stdlib/streams/node/from-iterator}
 */
-setReadOnly( streams, 'iteratorStream', require( '@stdlib/streams/node/from-iterator' ) );
+setReadOnly( streams, 'iteratorStream', require( './../../node/from-iterator' ) );
 
 /**
 * @name stridedArrayStream
@@ -106,7 +106,7 @@ setReadOnly( streams, 'iteratorStream', require( '@stdlib/streams/node/from-iter
 * @type {Function}
 * @see {@link module:@stdlib/streams/node/from-strided-array}
 */
-setReadOnly( streams, 'stridedArrayStream', require( '@stdlib/streams/node/from-strided-array' ) );
+setReadOnly( streams, 'stridedArrayStream', require( './../../node/from-strided-array' ) );
 
 /**
 * @name inspectStream
@@ -115,7 +115,7 @@ setReadOnly( streams, 'stridedArrayStream', require( '@stdlib/streams/node/from-
 * @type {Function}
 * @see {@link module:@stdlib/streams/node/inspect}
 */
-setReadOnly( streams, 'inspectStream', require( '@stdlib/streams/node/inspect' ) );
+setReadOnly( streams, 'inspectStream', require( './../../node/inspect' ) );
 
 /**
 * @name inspectSinkStream
@@ -124,7 +124,7 @@ setReadOnly( streams, 'inspectStream', require( '@stdlib/streams/node/inspect' )
 * @type {Function}
 * @see {@link module:@stdlib/streams/node/inspect-sink}
 */
-setReadOnly( streams, 'inspectSinkStream', require( '@stdlib/streams/node/inspect-sink' ) );
+setReadOnly( streams, 'inspectSinkStream', require( './../../node/inspect-sink' ) );
 
 /**
 * @name joinStream
@@ -133,7 +133,7 @@ setReadOnly( streams, 'inspectSinkStream', require( '@stdlib/streams/node/inspec
 * @type {Function}
 * @see {@link module:@stdlib/streams/node/join}
 */
-setReadOnly( streams, 'joinStream', require( '@stdlib/streams/node/join' ) );
+setReadOnly( streams, 'joinStream', require( './../../node/join' ) );
 
 /**
 * @name splitStream
@@ -142,7 +142,7 @@ setReadOnly( streams, 'joinStream', require( '@stdlib/streams/node/join' ) );
 * @type {Function}
 * @see {@link module:@stdlib/streams/node/split}
 */
-setReadOnly( streams, 'splitStream', require( '@stdlib/streams/node/split' ) );
+setReadOnly( streams, 'splitStream', require( './../../node/split' ) );
 
 /**
 * @name stderr
@@ -151,7 +151,7 @@ setReadOnly( streams, 'splitStream', require( '@stdlib/streams/node/split' ) );
 * @type {Function}
 * @see {@link module:@stdlib/streams/node/stderr}
 */
-setReadOnly( streams, 'stderr', require( '@stdlib/streams/node/stderr' ) );
+setReadOnly( streams, 'stderr', require( './../../node/stderr' ) );
 
 /**
 * @name stdin
@@ -160,7 +160,7 @@ setReadOnly( streams, 'stderr', require( '@stdlib/streams/node/stderr' ) );
 * @type {Function}
 * @see {@link module:@stdlib/streams/node/stdin}
 */
-setReadOnly( streams, 'stdin', require( '@stdlib/streams/node/stdin' ) );
+setReadOnly( streams, 'stdin', require( './../../node/stdin' ) );
 
 /**
 * @name stdout
@@ -169,7 +169,7 @@ setReadOnly( streams, 'stdin', require( '@stdlib/streams/node/stdin' ) );
 * @type {Function}
 * @see {@link module:@stdlib/streams/node/stdout}
 */
-setReadOnly( streams, 'stdout', require( '@stdlib/streams/node/stdout' ) );
+setReadOnly( streams, 'stdout', require( './../../node/stdout' ) );
 
 /**
 * @name transformStream
@@ -178,7 +178,7 @@ setReadOnly( streams, 'stdout', require( '@stdlib/streams/node/stdout' ) );
 * @type {Function}
 * @see {@link module:@stdlib/streams/node/transform}
 */
-setReadOnly( streams, 'transformStream', require( '@stdlib/streams/node/transform' ) );
+setReadOnly( streams, 'transformStream', require( './../../node/transform' ) );
 
 
 // EXPORTS //

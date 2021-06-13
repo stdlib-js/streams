@@ -23,7 +23,7 @@
 var tape = require( 'tape' );
 var Readable = require( 'readable-stream' ).Readable;
 var isBuffer = require( '@stdlib/assert/is-buffer' );
-var inspectStream = require( '@stdlib/streams/node/inspect-sink' );
+var inspectStream = require( './../../../node/inspect-sink' );
 var parseJSON = require( '@stdlib/utils/parse-json' );
 var string2buffer = require( '@stdlib/buffer/from-string' );
 var arrayStream = require( './../lib/main.js' );

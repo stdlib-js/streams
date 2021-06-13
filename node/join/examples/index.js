@@ -18,8 +18,8 @@
 
 'use strict';
 
-var splitStream = require( '@stdlib/streams/node/split' );
-var inspectStream = require( '@stdlib/streams/node/inspect-sink' );
+var splitStream = require( './../../../node/split' );
+var inspectStream = require( './../../../node/inspect-sink' );
 var joinStream = require( './../lib' );
 
 var inspect;

@@ -18,8 +18,8 @@
 
 'use strict';
 
-var transformStream = require( '@stdlib/streams/node/transform' );
-var stdout = require( '@stdlib/streams/node/stdout' );
+var transformStream = require( './../../../node/transform' );
+var stdout = require( './../../../node/stdout' );
 var splitStream = require( './../lib' );
 
 function append( chunk, enc, clbk ) {

@@ -26,7 +26,7 @@ var isBuffer = require( '@stdlib/assert/is-buffer' );
 var array2iterator = require( '@stdlib/array/to-iterator' );
 var string2buffer = require( '@stdlib/buffer/from-string' );
 var randu = require( '@stdlib/random/iter/randu' );
-var inspectStream = require( '@stdlib/streams/node/inspect-sink' );
+var inspectStream = require( './../../../node/inspect-sink' );
 var parseJSON = require( '@stdlib/utils/parse-json' );
 var iteratorStream = require( './../lib/main.js' );
 

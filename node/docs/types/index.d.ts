@@ -21,22 +21,22 @@
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
 
-import debugStream = require( '@stdlib/streams/node/debug' );
-import debugSinkStream = require( '@stdlib/streams/node/debug-sink' );
-import emptyStream = require( '@stdlib/streams/node/empty' );
-import arrayStream = require( '@stdlib/streams/node/from-array' );
-import circularArrayStream = require( '@stdlib/streams/node/from-circular-array' );
-import constantStream = require( '@stdlib/streams/node/from-constant' );
-import iteratorStream = require( '@stdlib/streams/node/from-iterator' );
-import stridedArrayStream = require( '@stdlib/streams/node/from-strided-array' );
-import inspectStream = require( '@stdlib/streams/node/inspect' );
-import inspectSinkStream = require( '@stdlib/streams/node/inspect-sink' );
-import joinStream = require( '@stdlib/streams/node/join' );
-import splitStream = require( '@stdlib/streams/node/split' );
-import stderr = require( '@stdlib/streams/node/stderr' );
-import stdin = require( '@stdlib/streams/node/stdin' );
-import stdout = require( '@stdlib/streams/node/stdout' );
-import transformStream = require( '@stdlib/streams/node/transform' );
+import debugStream = require( './../../../node/debug' );
+import debugSinkStream = require( './../../../node/debug-sink' );
+import emptyStream = require( './../../../node/empty' );
+import arrayStream = require( './../../../node/from-array' );
+import circularArrayStream = require( './../../../node/from-circular-array' );
+import constantStream = require( './../../../node/from-constant' );
+import iteratorStream = require( './../../../node/from-iterator' );
+import stridedArrayStream = require( './../../../node/from-strided-array' );
+import inspectStream = require( './../../../node/inspect' );
+import inspectSinkStream = require( './../../../node/inspect-sink' );
+import joinStream = require( './../../../node/join' );
+import splitStream = require( './../../../node/split' );
+import stderr = require( './../../../node/stderr' );
+import stdin = require( './../../../node/stdin' );
+import stdout = require( './../../../node/stdout' );
+import transformStream = require( './../../../node/transform' );
 
 /**
 * Interface describing the `node` namespace.

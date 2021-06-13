@@ -21,7 +21,7 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var inspectStream = require( '@stdlib/streams/node/inspect-sink' );
+var inspectStream = require( './../../../node/inspect-sink' );
 var array2iterator = require( '@stdlib/array/to-iterator' );
 var IteratorStream = require( './../lib/main.js' );
 var objectMode = require( './../lib/object_mode.js' );

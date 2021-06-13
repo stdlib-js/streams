@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var InspectSinkStream = require( '@stdlib/streams/node/inspect-sink' );
+var InspectSinkStream = require( './../../../node/inspect-sink' );
 var isFunction = require( '@stdlib/assert/is-function' );
 var isBuffer = require( '@stdlib/assert/is-buffer' );
 var copy = require( '@stdlib/utils/copy' );
