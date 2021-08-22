@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/streams",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "Standard library streams.",
   "license": "Apache-2.0",
   "author": {
@@ -36,12 +36,12 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert": "github:stdlib-js/assert",
-    "@stdlib/buffer": "github:stdlib-js/buffer",
-    "@stdlib/cli": "github:stdlib-js/cli",
-    "@stdlib/fs": "github:stdlib-js/fs",
-    "@stdlib/types": "github:stdlib-js/types",
-    "@stdlib/utils": "github:stdlib-js/utils",
+    "@stdlib/assert": "github:stdlib-js/assert#main",
+    "@stdlib/buffer": "github:stdlib-js/buffer#main",
+    "@stdlib/cli": "github:stdlib-js/cli#main",
+    "@stdlib/fs": "github:stdlib-js/fs#main",
+    "@stdlib/types": "github:stdlib-js/types#main",
+    "@stdlib/utils": "github:stdlib-js/utils#main",
     "debug": "^2.6.9",
     "readable-stream": "^2.1.4"
   },
