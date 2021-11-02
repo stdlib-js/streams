@@ -22,7 +22,7 @@ limitations under the License.
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
 
-> Standard library streams.
+> Streams.
 
 <section class="installation">
 
@@ -44,7 +44,7 @@ var streams = require( '@stdlib/streams' );
 
 #### streams
 
-Standard library streams.
+Namespace containing stream functionality.
 
 ```javascript
 var s = streams;
