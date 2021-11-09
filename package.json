@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/streams",
-  "version": "0.0.0",
+  "version": "0.0.12",
   "description": "Streams.",
   "license": "Apache-2.0",
   "author": {
