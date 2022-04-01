@@ -66,31 +66,31 @@ function validate( opts, options ) {
 			!isString( opts.sep ) &&
 			!isRegExp( opts.sep )
 		) {
-			return new TypeError( format( 'invalid option. `%s` option must be either a primitive string or a regular expression. Option: `%s`.', 'sep', opts.sep ) );
+			return new TypeError( format( 'invalid option. `%s` option must be either a string or a regular expression. Option: `%s`.', 'sep', opts.sep ) );
 		}
 	}
 	if ( hasOwnProp( options, 'objectMode' ) ) {
 		opts.objectMode = options.objectMode;
 		if ( !isBoolean( opts.objectMode ) ) {
-			return new TypeError( format( 'invalid option. `%s` option must be a boolean primitive. Option: `%s`.', 'objectMode', opts.objectMode ) );
+			return new TypeError( format( 'invalid option. `%s` option must be a boolean. Option: `%s`.', 'objectMode', opts.objectMode ) );
 		}
 	}
 	if ( hasOwnProp( options, 'writableObjectMode' ) ) {
 		opts.writableObjectMode = options.writableObjectMode;
 		if ( !isBoolean( opts.writableObjectMode ) ) {
-			return new TypeError( format( 'invalid option. `%s` option must be a boolean primitive. Option: `%s`.', 'writableObjectMode', opts.writableObjectMode ) );
+			return new TypeError( format( 'invalid option. `%s` option must be a boolean. Option: `%s`.', 'writableObjectMode', opts.writableObjectMode ) );
 		}
 	}
 	if ( hasOwnProp( options, 'encoding' ) ) {
 		opts.encoding = options.encoding;
 		if ( !isString( opts.encoding ) ) {
-			return new TypeError( format( 'invalid option. `%s` option must be a string primitive. Option: `%s`.', 'encoding', opts.encoding ) );
+			return new TypeError( format( 'invalid option. `%s` option must be a string. Option: `%s`.', 'encoding', opts.encoding ) );
 		}
 	}
 	if ( hasOwnProp( options, 'allowHalfOpen' ) ) {
 		opts.allowHalfOpen = options.allowHalfOpen;
 		if ( !isBoolean( opts.allowHalfOpen ) ) {
-			return new TypeError( format( 'invalid option. `%s` option must be a boolean primitive. Option: `%s`.', 'allowHalfOpen', opts.allowHalfOpen ) );
+			return new TypeError( format( 'invalid option. `%s` option must be a boolean. Option: `%s`.', 'allowHalfOpen', opts.allowHalfOpen ) );
 		}
 	}
 	if ( hasOwnProp( options, 'highWaterMark' ) ) {
