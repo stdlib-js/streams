@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import streams from 'https://cdn.jsdelivr.net/gh/stdlib-js/streams@esm/index.mjs';
+import streams from 'https://cdn.jsdelivr.net/gh/stdlib-js/streams@v0.1.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { node } from 'https://cdn.jsdelivr.net/gh/stdlib-js/streams@esm/index.mjs';
+import { node } from 'https://cdn.jsdelivr.net/gh/stdlib-js/streams@v0.1.0-esm/index.mjs';
 ```
 
 #### streams
@@ -91,7 +91,7 @@ The namespace contains the following sub-namespaces:
 <script type="module">
 
 import getKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils/keys@esm/index.mjs';
-import streams from 'https://cdn.jsdelivr.net/gh/stdlib-js/streams@esm/index.mjs';
+import streams from 'https://cdn.jsdelivr.net/gh/stdlib-js/streams@v0.1.0-esm/index.mjs';
 
 console.log( getKeys( streams ) );
 
