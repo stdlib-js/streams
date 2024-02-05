@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import streams from 'https://cdn.jsdelivr.net/gh/stdlib-js/streams@deno/mod.js';
+import streams from 'https://cdn.jsdelivr.net/gh/stdlib-js/streams@v0.2.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { node } from 'https://cdn.jsdelivr.net/gh/stdlib-js/streams@deno/mod.js';
+import { node } from 'https://cdn.jsdelivr.net/gh/stdlib-js/streams@v0.2.1-deno/mod.js';
 ```
 
 #### streams
@@ -86,7 +86,7 @@ The namespace contains the following sub-namespaces:
 
 ```javascript
 import getKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils/keys@deno/mod.js';
-import streams from 'https://cdn.jsdelivr.net/gh/stdlib-js/streams@deno/mod.js';
+import streams from 'https://cdn.jsdelivr.net/gh/stdlib-js/streams@v0.2.1-deno/mod.js';
 
 console.log( getKeys( streams ) );
 ```
