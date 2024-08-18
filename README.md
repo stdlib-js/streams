@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import streams from 'https://cdn.jsdelivr.net/gh/stdlib-js/streams@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/streams/tags). For example,
+
+```javascript
 import streams from 'https://cdn.jsdelivr.net/gh/stdlib-js/streams@v0.3.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { node } from 'https://cdn.jsdelivr.net/gh/stdlib-js/streams@v0.3.1-deno/mod.js';
+import { node } from 'https://cdn.jsdelivr.net/gh/stdlib-js/streams@deno/mod.js';
 ```
 
 #### streams
@@ -86,7 +91,7 @@ The namespace contains the following sub-namespaces:
 
 ```javascript
 import getKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils/keys@deno/mod.js';
-import streams from 'https://cdn.jsdelivr.net/gh/stdlib-js/streams@v0.3.1-deno/mod.js';
+import streams from 'https://cdn.jsdelivr.net/gh/stdlib-js/streams@deno/mod.js';
 
 console.log( getKeys( streams ) );
 ```
