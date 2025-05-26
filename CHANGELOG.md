@@ -4,9 +4,47 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-23)
+## Unreleased (2025-05-26)
 
-No changes reported for this release.
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#6992](https://github.com/stdlib-js/stdlib/issues/6992)
+
+</section>
+
+<!-- /.issues -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`3723b66`](https://github.com/stdlib-js/stdlib/commit/3723b660d122770a9b4862695fd5c02eb5da352b) - **chore:** fix EditorConfig lint errors [(#7001)](https://github.com/stdlib-js/stdlib/pull/7001) _(by Lalit Narayan Yadav)_
+-   [`805f439`](https://github.com/stdlib-js/stdlib/commit/805f439579204a004b3ff7cb040d5dca166c3205) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Lalit Narayan Yadav
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
@@ -46,26 +84,6 @@ No changes reported for this release.
 
 ## 0.3.0 (2024-08-17)
 
-<section class="packages">
-
-### Packages
-
-</section>
-
-<!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
-
 <section class="commits">
 
 ### Commits
@@ -79,6 +97,18 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
@@ -98,85 +128,9 @@ No changes reported for this release.
 
 ## 0.2.0 (2024-02-05)
 
-<section class="packages">
-
-### Packages
-
-<section class="package" id="streams-node-empty-v0.2.0">
-
-#### [@stdlib/streams/node/empty](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/streams/node/empty)
-
-<details>
-
 <section class="bug-fixes">
 
-##### Bug Fixes
-
--   [`c0785c9`](https://github.com/stdlib-js/stdlib/commit/c0785c9806e50e2c0c316e95d0160ee3c1748d49) - throw when provided options argument which is not an object
-
-</section>
-
-<!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="streams-node-from-array-v0.2.0">
-
-#### [@stdlib/streams/node/from-array](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/streams/node/from-array)
-
-<details>
-
-<section class="bug-fixes">
-
-##### Bug Fixes
-
--   [`c0785c9`](https://github.com/stdlib-js/stdlib/commit/c0785c9806e50e2c0c316e95d0160ee3c1748d49) - throw when provided options argument which is not an object
-
-</section>
-
-<!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="streams-node-from-circular-array-v0.2.0">
-
-#### [@stdlib/streams/node/from-circular-array](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/streams/node/from-circular-array)
-
-<details>
-
-<section class="bug-fixes">
-
-##### Bug Fixes
-
--   [`c0785c9`](https://github.com/stdlib-js/stdlib/commit/c0785c9806e50e2c0c316e95d0160ee3c1748d49) - throw when provided options argument which is not an object
-
-</section>
-
-<!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="streams-node-from-constant-v0.2.0">
-
-#### [@stdlib/streams/node/from-constant](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/streams/node/from-constant)
-
-<details>
-
-<section class="bug-fixes">
-
-##### Bug Fixes
+### Bug Fixes
 
 -   [`f3ba2d3`](https://github.com/stdlib-js/stdlib/commit/f3ba2d362753bf4a24c66c16a87e53d89b137fb8) - move options argument check to correct position
 -   [`c0785c9`](https://github.com/stdlib-js/stdlib/commit/c0785c9806e50e2c0c316e95d0160ee3c1748d49) - throw when provided options argument which is not an object
@@ -184,73 +138,6 @@ No changes reported for this release.
 </section>
 
 <!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="streams-node-from-iterator-v0.2.0">
-
-#### [@stdlib/streams/node/from-iterator](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/streams/node/from-iterator)
-
-<details>
-
-<section class="bug-fixes">
-
-##### Bug Fixes
-
--   [`c0785c9`](https://github.com/stdlib-js/stdlib/commit/c0785c9806e50e2c0c316e95d0160ee3c1748d49) - throw when provided options argument which is not an object
-
-</section>
-
-<!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="streams-node-from-strided-array-v0.2.0">
-
-#### [@stdlib/streams/node/from-strided-array](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/streams/node/from-strided-array)
-
-<details>
-
-<section class="bug-fixes">
-
-##### Bug Fixes
-
--   [`c0785c9`](https://github.com/stdlib-js/stdlib/commit/c0785c9806e50e2c0c316e95d0160ee3c1748d49) - throw when provided options argument which is not an object
-
-</section>
-
-<!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 2 people contributed to this release. Thank you to the following contributors:
-
--   Athan Reines
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -271,6 +158,19 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <!-- /.commits -->
 
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
 </section>
 
 <!-- /.release -->
@@ -289,342 +189,13 @@ No changes reported for this release.
 
 ## 0.1.0 (2023-11-08)
 
-<section class="packages">
-
-### Packages
-
-<section class="package" id="streams-v0.1.0">
-
-#### [@stdlib/streams](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/streams)
-
-<details>
-
 <section class="features">
 
-##### Features
+### Features
 
 -   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="streams-node-v0.1.0">
-
-#### [@stdlib/streams/node](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/streams/node)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="streams-node-debug-v0.1.0">
-
-#### [@stdlib/streams/node/debug](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/streams/node/debug)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="streams-node-debug-sink-v0.1.0">
-
-#### [@stdlib/streams/node/debug-sink](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/streams/node/debug-sink)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="streams-node-empty-v0.1.0">
-
-#### [@stdlib/streams/node/empty](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/streams/node/empty)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="streams-node-from-array-v0.1.0">
-
-#### [@stdlib/streams/node/from-array](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/streams/node/from-array)
-
-<details>
-
-<section class="features">
-
-##### Features
-
 -   [`4a9e705`](https://github.com/stdlib-js/stdlib/commit/4a9e7051d2f3ab1503b45042c3cc96ff159e0e83) - increase minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="bug-fixes">
-
-##### Bug Fixes
-
--   [`ddfc42b`](https://github.com/stdlib-js/stdlib/commit/ddfc42b40a883dacda7c1f2895a1ed5368200ec9) - update import path for `Collection` type definition
-
-</section>
-
-<!-- /.bug-fixes -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`4a9e705`](https://github.com/stdlib-js/stdlib/commit/4a9e7051d2f3ab1503b45042c3cc96ff159e0e83): increase minimum TypeScript version
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="streams-node-from-circular-array-v0.1.0">
-
-#### [@stdlib/streams/node/from-circular-array](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/streams/node/from-circular-array)
-
-<details>
-
-<section class="features">
-
-##### Features
-
 -   [`69d1307`](https://github.com/stdlib-js/stdlib/commit/69d13078bc7830165bd3cd83062374de1d5f3e7c) - increase minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="bug-fixes">
-
-##### Bug Fixes
-
--   [`ddfc42b`](https://github.com/stdlib-js/stdlib/commit/ddfc42b40a883dacda7c1f2895a1ed5368200ec9) - update import path for `Collection` type definition
-
-</section>
-
-<!-- /.bug-fixes -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`69d1307`](https://github.com/stdlib-js/stdlib/commit/69d13078bc7830165bd3cd83062374de1d5f3e7c): increase minimum TypeScript version
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="streams-node-from-constant-v0.1.0">
-
-#### [@stdlib/streams/node/from-constant](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/streams/node/from-constant)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="streams-node-from-iterator-v0.1.0">
-
-#### [@stdlib/streams/node/from-iterator](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/streams/node/from-iterator)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="streams-node-from-strided-array-v0.1.0">
-
-#### [@stdlib/streams/node/from-strided-array](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/streams/node/from-strided-array)
-
-<details>
-
-<section class="features">
-
-##### Features
-
 -   [`4a47588`](https://github.com/stdlib-js/stdlib/commit/4a47588aa3ecf73386709b634d9bda56df77ab9c) - increase minimum TypeScript version
 
 </section>
@@ -633,305 +204,13 @@ No changes reported for this release.
 
 <section class="bug-fixes">
 
-##### Bug Fixes
+### Bug Fixes
 
 -   [`ddfc42b`](https://github.com/stdlib-js/stdlib/commit/ddfc42b40a883dacda7c1f2895a1ed5368200ec9) - update import path for `Collection` type definition
 
 </section>
 
 <!-- /.bug-fixes -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`4a47588`](https://github.com/stdlib-js/stdlib/commit/4a47588aa3ecf73386709b634d9bda56df77ab9c): increase minimum TypeScript version
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="streams-node-inspect-v0.1.0">
-
-#### [@stdlib/streams/node/inspect](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/streams/node/inspect)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="streams-node-inspect-sink-v0.1.0">
-
-#### [@stdlib/streams/node/inspect-sink](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/streams/node/inspect-sink)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="streams-node-join-v0.1.0">
-
-#### [@stdlib/streams/node/join](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/streams/node/join)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="streams-node-split-v0.1.0">
-
-#### [@stdlib/streams/node/split](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/streams/node/split)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="streams-node-stderr-v0.1.0">
-
-#### [@stdlib/streams/node/stderr](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/streams/node/stderr)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="streams-node-stdin-v0.1.0">
-
-#### [@stdlib/streams/node/stdin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/streams/node/stdin)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="streams-node-stdout-v0.1.0">
-
-#### [@stdlib/streams/node/stdout](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/streams/node/stdout)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="streams-node-transform-v0.1.0">
-
-#### [@stdlib/streams/node/transform](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/streams/node/transform)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
 
 <section class="breaking-changes">
 
@@ -948,19 +227,6 @@ No changes reported for this release.
 </section>
 
 <!-- /.breaking-changes -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 2 people contributed to this release. Thank you to the following contributors:
-
--   Athan Reines
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -986,6 +252,19 @@ A total of 2 people contributed to this release. Thank you to the following cont
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
